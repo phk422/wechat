@@ -1,0 +1,16 @@
+<!--components/p-scroll-view/p-scroll-view.wxml-->
+<scroll-view scroll-y="true">
+  <block wx:for="{{list}}" wx:for-item="item" wx:key="index">
+    <view class="graySpace">
+        <text wx:if="{{item.text}}">{{item.text}}</text>
+    </view>
+    <view class="item-avatar" wx:for="{{item.list_tool}}"  wx:for-item="i" wx:key="index" data-name="{{i.name}}" data-url="{{i.url}}" bindtap="goPage">
+      <view style="padding-top:20rpx">
+          <image src="{{i.img}}" />
+      </view>
+      <view style="padding-left:20rpx;padding-top:20rpx">
+        <text class="title">{{i.name}}</text>
+      </view>
+    </view>
+  </block>
+</scroll-view>

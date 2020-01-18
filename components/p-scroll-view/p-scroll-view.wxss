@@ -1,0 +1,6 @@
+/* components/p-scroll-view/p-scroll-view.wxss */
+.graySpace{
+  background: #eee;
+  height: 20rpx;
+}
+

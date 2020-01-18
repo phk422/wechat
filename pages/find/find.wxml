@@ -1,0 +1,2 @@
+<!--pages/find/find.wxml-->
+<p-scroll-view list="{{list}}" graySpace="graySpace" item-avatar="item-avatar-xs" title="title" bind:scanCode="scanCode"/>

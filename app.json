@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/wechat/wechat",
+    "pages/note/note",
+    "pages/find/find",
+    "pages/mine/mine",
+    "pages/info/info",
+    "pages/moments/moments"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#00CC00",
+    "list": [
+      {
+        "pagePath": "pages/wechat/wechat",
+        "text": "微信",
+        "iconPath": "assets/image/tabbar/wechat.png",
+        "selectedIconPath": "assets/image/tabbar/wechat_2.png"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "通讯录",
+        "iconPath": "assets/image/tabbar/note.png",
+        "selectedIconPath": "assets/image/tabbar/note_2.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "assets/image/tabbar/find.png",
+        "selectedIconPath": "assets/image/tabbar/find_2.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我",
+        "iconPath": "assets/image/tabbar/mine.png",
+        "selectedIconPath": "assets/image/tabbar/mine_2.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

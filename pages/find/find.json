@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "p-scroll-view": "/components/p-scroll-view/p-scroll-view"
+  },
+  "navigationBarTitleText": "发现"
+}

@@ -1,0 +1,7 @@
+<!--pages/mine/mine.wxml-->
+<scroll-view scroll-y="true">
+  <!-- 用户基本信息 -->
+  <p-profile item-avatar="item-avatar-lg" padding="padding" title="title"/>
+  <!-- 各选项 -->
+  <p-scroll-view list="{{list}}" graySpace="graySpace" item-avatar="item-avatar-xs" />
+</scroll-view>

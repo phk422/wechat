@@ -1,0 +1,14 @@
+<!--pages/note/note.wxml-->
+<scroll-view scroll-y="true">
+    <view wx:for="{{list}}" wx:key="index">
+        <view class="graySpace" wx:if="{{item.text}}">
+            <text>{{item.text}}</text>
+        </view>
+        <view class="item-avatar-sm" wx:for="{{item.list_tool}}" wx:for-item="i" wx:key="index" data-url="{{i.url}}" bindtap="goPage">
+            <image src="{{i.img}}" />
+            <view class="padding_half">
+                <text class="title">{{i.name}}</text>
+            </view>
+        </view>
+    </view>
+</scroll-view>

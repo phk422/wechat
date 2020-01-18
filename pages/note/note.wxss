@@ -1,0 +1,5 @@
+/* pages/note/note.wxss */
+.graySpace{
+  background: #eee;
+  height: 40rpx;
+}

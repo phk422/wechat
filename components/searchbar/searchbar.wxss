@@ -1,0 +1,19 @@
+/* components/searchbar/searchbar.wxss */
+/* 引入微信样式 */
+@import "/style/weui-searchbar.wxss";
+
+.searchbar-result{
+    margin-top: 0;
+    font-size: 14px;
+}
+.searchbar-result .weui-cell__bd{
+  padding: 2px 0 2px 20px;
+  height: 50px; 
+  line-height: 50px;
+  border-bottom:2rpx solid #eee ;
+  cursor: pointer;
+  color: #666;
+}
+.searchbar-result:before{
+    display: none;
+}

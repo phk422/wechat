@@ -1,0 +1,6 @@
+/* pages/mine/mine.wxss */
+
+.center{
+  height: 50rpx;
+  margin-top: 15rpx
+}

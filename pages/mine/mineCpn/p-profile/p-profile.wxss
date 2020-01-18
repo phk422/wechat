@@ -1,0 +1,9 @@
+/* pages/mine/mineCpn/p-profile/p-profile.wxss */
+.nikeName{
+  font-size: 40rpx;
+  font-weight: bold;
+}
+.wxnum{
+  color: 	#C0C0C0;
+  padding-top: 15rpx;
+}
