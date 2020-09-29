@@ -7,7 +7,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    userInfo: {}
   },
 
   /**
@@ -17,11 +17,15 @@ Page({
     this.setData({
       userInfo: app.globalData.userInfo
     })
+    console.log(this.userInfo)
 
     request({
       url: app.globalData.ip + "friend/getMoments"
     }).then(res => {
       console.log(res.data)
+      for(let item of res.data){
+        item.avaImg = app.globalData.ip + item.avaImg;
+      }
       this.setData({
         moments: res.data
       })

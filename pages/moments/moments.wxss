@@ -3,7 +3,7 @@
 .bigImg{
     width: 100%;
     height: 40%;
-    background: url("http://182.92.148.170:8080/miniprogram/image/moments_bg.png");
+    background: url("http://localhost:8080/miniprogram/image/moments_bg.png");
     background-size: cover;
     position:relative;
 }

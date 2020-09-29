@@ -55,7 +55,11 @@ Page({
     request({
       url: app.globalData.ip + 'friend/findAll',
     }).then(res => {
-      console.log(res.data)
+      for (let item of res.data) {
+        for (let item2 of item.list_tool) {
+          item2.img = app.globalData.ip + item2.img
+        }
+      }
       this.setData({
         list: this.data.list.concat(res.data)
       })
